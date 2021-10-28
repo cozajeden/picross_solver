@@ -150,6 +150,7 @@ class Window(Tk):
                     self.step(x, y)
                     idx.append(i)
                     self.fill_cell_wiev(x,y)
+                    sleep(0.01)
             # Leave only pairs that was used
             xs = xs[idx]
             ys = ys[idx]
